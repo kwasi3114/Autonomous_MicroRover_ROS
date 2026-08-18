@@ -1,0 +1,171 @@
+[0.000000] (-) TimerEvent: {}
+[0.003098] (rover_autonomy) JobQueued: {'identifier': 'rover_autonomy', 'dependencies': OrderedDict()}
+[0.008022] (rover_autonomy) JobStarted: {'identifier': 'rover_autonomy'}
+[0.101912] (-) TimerEvent: {}
+[0.204923] (-) TimerEvent: {}
+[0.305974] (-) TimerEvent: {}
+[0.408117] (-) TimerEvent: {}
+[0.510453] (-) TimerEvent: {}
+[0.614460] (-) TimerEvent: {}
+[0.715893] (-) TimerEvent: {}
+[0.820888] (-) TimerEvent: {}
+[0.922347] (-) TimerEvent: {}
+[1.023677] (-) TimerEvent: {}
+[1.127344] (-) TimerEvent: {}
+[1.228883] (-) TimerEvent: {}
+[1.332402] (-) TimerEvent: {}
+[1.436418] (-) TimerEvent: {}
+[1.537800] (-) TimerEvent: {}
+[1.639878] (-) TimerEvent: {}
+[1.743080] (-) TimerEvent: {}
+[1.844530] (-) TimerEvent: {}
+[1.948314] (-) TimerEvent: {}
+[2.050880] (-) TimerEvent: {}
+[2.152242] (-) TimerEvent: {}
+[2.256445] (-) TimerEvent: {}
+[2.357874] (-) TimerEvent: {}
+[2.461428] (-) TimerEvent: {}
+[2.562901] (-) TimerEvent: {}
+[2.665462] (-) TimerEvent: {}
+[2.769864] (-) TimerEvent: {}
+[2.870853] (-) TimerEvent: {}
+[2.974443] (-) TimerEvent: {}
+[3.075980] (-) TimerEvent: {}
+[3.178427] (-) TimerEvent: {}
+[3.283356] (-) TimerEvent: {}
+[3.384902] (-) TimerEvent: {}
+[3.488880] (-) TimerEvent: {}
+[3.590155] (-) TimerEvent: {}
+[3.694169] (-) TimerEvent: {}
+[3.795458] (-) TimerEvent: {}
+[3.897874] (-) TimerEvent: {}
+[3.999212] (-) TimerEvent: {}
+[4.103174] (-) TimerEvent: {}
+[4.204589] (-) TimerEvent: {}
+[4.306907] (-) TimerEvent: {}
+[4.408856] (-) TimerEvent: {}
+[4.510873] (-) TimerEvent: {}
+[4.614091] (-) TimerEvent: {}
+[4.715428] (-) TimerEvent: {}
+[4.818252] (-) TimerEvent: {}
+[4.921903] (-) TimerEvent: {}
+[5.023213] (-) TimerEvent: {}
+[5.126864] (-) TimerEvent: {}
+[5.228163] (-) TimerEvent: {}
+[5.330865] (-) TimerEvent: {}
+[5.432325] (-) TimerEvent: {}
+[5.535439] (-) TimerEvent: {}
+[5.638103] (-) TimerEvent: {}
+[5.740893] (-) TimerEvent: {}
+[5.842361] (-) TimerEvent: {}
+[5.946431] (-) TimerEvent: {}
+[6.047961] (-) TimerEvent: {}
+[6.150885] (-) TimerEvent: {}
+[6.252165] (-) TimerEvent: {}
+[6.355586] (-) TimerEvent: {}
+[6.459155] (-) TimerEvent: {}
+[6.560756] (-) TimerEvent: {}
+[6.667889] (-) TimerEvent: {}
+[6.771276] (-) TimerEvent: {}
+[6.876230] (-) TimerEvent: {}
+[6.979876] (-) TimerEvent: {}
+[7.084880] (-) TimerEvent: {}
+[7.188197] (-) TimerEvent: {}
+[7.292886] (-) TimerEvent: {}
+[7.396289] (-) TimerEvent: {}
+[7.500886] (-) TimerEvent: {}
+[7.604243] (-) TimerEvent: {}
+[7.708883] (-) TimerEvent: {}
+[7.811889] (-) TimerEvent: {}
+[7.915225] (-) TimerEvent: {}
+[8.019883] (-) TimerEvent: {}
+[8.121012] (-) TimerEvent: {}
+[8.223532] (-) TimerEvent: {}
+[8.327163] (-) TimerEvent: {}
+[8.429739] (-) TimerEvent: {}
+[8.533032] (-) TimerEvent: {}
+[8.635898] (-) TimerEvent: {}
+[8.738955] (-) TimerEvent: {}
+[8.842121] (-) TimerEvent: {}
+[8.943423] (-) TimerEvent: {}
+[9.045861] (-) TimerEvent: {}
+[9.148858] (-) TimerEvent: {}
+[9.250204] (-) TimerEvent: {}
+[9.352923] (-) TimerEvent: {}
+[9.454140] (-) TimerEvent: {}
+[9.472515] (rover_autonomy) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/rover_autonomy', 'build', '--build-base', '/home/kwasi/Autonomous_MicroRover_ROS/microrover_ws/build/rover_autonomy/build', 'install', '--record', '/home/kwasi/Autonomous_MicroRover_ROS/microrover_ws/build/rover_autonomy/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kwasi/Autonomous_MicroRover_ROS/microrover_ws/src/rover_autonomy', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kwasi', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kwasi', 'OLDPWD': '/home/kwasi/Autonomous_MicroRover_ROS/microrover_ws/src/rover_autonomy', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1434', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kwasi/Autonomous_MicroRover_ROS/microrover_ws/install:/home/kwasi/mower_sim_ws/install:/home/kwasi/depth_camera_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kwasi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kwasi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/kwasi/.pyenv/shims:/home/kwasi/.pyenv/bin:/opt/ros/humble/bin:/usr/lib/ccache:/home/kwasi/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/kwasi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/kwasi/.local/bin:/home/kwasi/.local/bin', 'SESSION_MANAGER': 'local/kwasi-Compaq-CQ58-Notebook-PC:@/tmp/.ICE-unix/1404,unix/kwasi-Compaq-CQ58-Notebook-PC:/tmp/.ICE-unix/1404', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c28d4287_bb4a_40c1_b523_07e6835e567d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NO2MU3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.96', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kwasi/mower_sim_ws/install/mower_sim:/home/kwasi/depth_camera_ws/install/depth_camera:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kwasi/Autonomous_MicroRover_ROS/microrover_ws/build/rover_autonomy', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'PYENV_ROOT': '/home/kwasi/.pyenv', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kwasi/Autonomous_MicroRover_ROS/microrover_ws/build/rover_autonomy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kwasi/Autonomous_MicroRover_ROS/microrover_ws/install/rover_autonomy/lib/python3.10/site-packages:/home/kwasi/mower_sim_ws/install/mower_sim/lib/python3.10/site-packages:/home/kwasi/depth_camera_ws/install/depth_camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[9.556869] (-) TimerEvent: {}
+[9.658050] (-) TimerEvent: {}
+[9.761507] (-) TimerEvent: {}
+[9.865324] (-) TimerEvent: {}
+[9.966495] (-) TimerEvent: {}
+[10.069910] (-) TimerEvent: {}
+[10.171103] (-) TimerEvent: {}
+[10.272764] (-) TimerEvent: {}
+[10.376754] (-) TimerEvent: {}
+[10.478868] (-) TimerEvent: {}
+[10.580027] (-) TimerEvent: {}
+[10.683790] (-) TimerEvent: {}
+[10.785884] (-) TimerEvent: {}
+[10.889152] (-) TimerEvent: {}
+[10.990329] (-) TimerEvent: {}
+[11.093321] (-) TimerEvent: {}
+[11.194478] (-) TimerEvent: {}
+[11.298323] (-) TimerEvent: {}
+[11.399455] (-) TimerEvent: {}
+[11.502613] (-) TimerEvent: {}
+[11.605874] (-) TimerEvent: {}
+[11.706878] (-) TimerEvent: {}
+[11.809890] (-) TimerEvent: {}
+[11.911047] (-) TimerEvent: {}
+[12.013887] (-) TimerEvent: {}
+[12.115055] (-) TimerEvent: {}
+[12.219822] (-) TimerEvent: {}
+[12.322308] (-) TimerEvent: {}
+[12.425470] (-) TimerEvent: {}
+[12.529162] (-) TimerEvent: {}
+[12.630612] (-) TimerEvent: {}
+[12.734447] (-) TimerEvent: {}
+[12.835895] (-) TimerEvent: {}
+[12.864915] (rover_autonomy) StdoutLine: {'line': b'running egg_info\n'}
+[12.886565] (rover_autonomy) StdoutLine: {'line': b'creating ../../build/rover_autonomy/rover_autonomy.egg-info\n'}
+[12.898115] (rover_autonomy) StdoutLine: {'line': b'writing ../../build/rover_autonomy/rover_autonomy.egg-info/PKG-INFO\n'}
+[12.899203] (rover_autonomy) StdoutLine: {'line': b'writing dependency_links to ../../build/rover_autonomy/rover_autonomy.egg-info/dependency_links.txt\n'}
+[12.902343] (rover_autonomy) StdoutLine: {'line': b'writing entry points to ../../build/rover_autonomy/rover_autonomy.egg-info/entry_points.txt\n'}
+[12.906894] (rover_autonomy) StdoutLine: {'line': b'writing requirements to ../../build/rover_autonomy/rover_autonomy.egg-info/requires.txt\n'}
+[12.908954] (rover_autonomy) StdoutLine: {'line': b'writing top-level names to ../../build/rover_autonomy/rover_autonomy.egg-info/top_level.txt\n'}
+[12.909809] (rover_autonomy) StdoutLine: {'line': b"writing manifest file '../../build/rover_autonomy/rover_autonomy.egg-info/SOURCES.txt'\n"}
+[12.928879] (rover_autonomy) StdoutLine: {'line': b"reading manifest file '../../build/rover_autonomy/rover_autonomy.egg-info/SOURCES.txt'\n"}
+[12.933877] (rover_autonomy) StdoutLine: {'line': b"writing manifest file '../../build/rover_autonomy/rover_autonomy.egg-info/SOURCES.txt'\n"}
+[12.938985] (-) TimerEvent: {}
+[12.941945] (rover_autonomy) StdoutLine: {'line': b'running build\n'}
+[12.942977] (rover_autonomy) StdoutLine: {'line': b'running build_py\n'}
+[12.945057] (rover_autonomy) StdoutLine: {'line': b'creating /home/kwasi/Autonomous_MicroRover_ROS/microrover_ws/build/rover_autonomy/build\n'}
+[12.946033] (rover_autonomy) StdoutLine: {'line': b'creating /home/kwasi/Autonomous_MicroRover_ROS/microrover_ws/build/rover_autonomy/build/lib\n'}
+[12.949895] (rover_autonomy) StdoutLine: {'line': b'creating /home/kwasi/Autonomous_MicroRover_ROS/microrover_ws/build/rover_autonomy/build/lib/rover_autonomy\n'}
+[12.953486] (rover_autonomy) StdoutLine: {'line': b'copying rover_autonomy/__init__.py -> /home/kwasi/Autonomous_MicroRover_ROS/microrover_ws/build/rover_autonomy/build/lib/rover_autonomy\n'}
+[12.957594] (rover_autonomy) StdoutLine: {'line': b'running install\n'}
+[12.958389] (rover_autonomy) StdoutLine: {'line': b'running install_lib\n'}
+[12.960783] (rover_autonomy) StdoutLine: {'line': b'creating /home/kwasi/Autonomous_MicroRover_ROS/microrover_ws/install/rover_autonomy/lib/python3.10/site-packages/rover_autonomy\n'}
+[12.963192] (rover_autonomy) StdoutLine: {'line': b'copying /home/kwasi/Autonomous_MicroRover_ROS/microrover_ws/build/rover_autonomy/build/lib/rover_autonomy/__init__.py -> /home/kwasi/Autonomous_MicroRover_ROS/microrover_ws/install/rover_autonomy/lib/python3.10/site-packages/rover_autonomy\n'}
+[12.971945] (rover_autonomy) StdoutLine: {'line': b'byte-compiling /home/kwasi/Autonomous_MicroRover_ROS/microrover_ws/install/rover_autonomy/lib/python3.10/site-packages/rover_autonomy/__init__.py to __init__.cpython-310.pyc\n'}
+[12.980003] (rover_autonomy) StdoutLine: {'line': b'running install_data\n'}
+[12.987153] (rover_autonomy) StdoutLine: {'line': b'creating /home/kwasi/Autonomous_MicroRover_ROS/microrover_ws/install/rover_autonomy/share/ament_index\n'}
+[12.994851] (rover_autonomy) StdoutLine: {'line': b'creating /home/kwasi/Autonomous_MicroRover_ROS/microrover_ws/install/rover_autonomy/share/ament_index/resource_index\n'}
+[13.001023] (rover_autonomy) StdoutLine: {'line': b'creating /home/kwasi/Autonomous_MicroRover_ROS/microrover_ws/install/rover_autonomy/share/ament_index/resource_index/packages\n'}
+[13.007106] (rover_autonomy) StdoutLine: {'line': b'copying resource/rover_autonomy -> /home/kwasi/Autonomous_MicroRover_ROS/microrover_ws/install/rover_autonomy/share/ament_index/resource_index/packages\n'}
+[13.011012] (rover_autonomy) StdoutLine: {'line': b'copying package.xml -> /home/kwasi/Autonomous_MicroRover_ROS/microrover_ws/install/rover_autonomy/share/rover_autonomy\n'}
+[13.011965] (rover_autonomy) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.030826] (rover_autonomy) StdoutLine: {'line': b'Copying ../../build/rover_autonomy/rover_autonomy.egg-info to /home/kwasi/Autonomous_MicroRover_ROS/microrover_ws/install/rover_autonomy/lib/python3.10/site-packages/rover_autonomy-0.0.0-py3.10.egg-info\n'}
+[13.041834] (rover_autonomy) StdoutLine: {'line': b'running install_scripts\n'}
+[13.042832] (-) TimerEvent: {}
+[13.146463] (-) TimerEvent: {}
+[13.247968] (-) TimerEvent: {}
+[13.270047] (rover_autonomy) StdoutLine: {'line': b"writing list of installed files to '/home/kwasi/Autonomous_MicroRover_ROS/microrover_ws/build/rover_autonomy/install.log'\n"}
+[13.348256] (-) TimerEvent: {}
+[13.452417] (-) TimerEvent: {}
+[13.553792] (rover_autonomy) CommandEnded: {'returncode': 0}
+[13.558428] (-) TimerEvent: {}
+[13.662966] (-) TimerEvent: {}
+[13.693508] (rover_autonomy) JobEnded: {'identifier': 'rover_autonomy', 'rc': 0}
+[13.707894] (-) EventReactorShutdown: {}

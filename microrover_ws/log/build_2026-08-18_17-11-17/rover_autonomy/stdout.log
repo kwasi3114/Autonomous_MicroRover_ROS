@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/rover_autonomy/rover_autonomy.egg-info
+writing ../../build/rover_autonomy/rover_autonomy.egg-info/PKG-INFO
+writing dependency_links to ../../build/rover_autonomy/rover_autonomy.egg-info/dependency_links.txt
+writing entry points to ../../build/rover_autonomy/rover_autonomy.egg-info/entry_points.txt
+writing requirements to ../../build/rover_autonomy/rover_autonomy.egg-info/requires.txt
+writing top-level names to ../../build/rover_autonomy/rover_autonomy.egg-info/top_level.txt
+writing manifest file '../../build/rover_autonomy/rover_autonomy.egg-info/SOURCES.txt'
+reading manifest file '../../build/rover_autonomy/rover_autonomy.egg-info/SOURCES.txt'
+writing manifest file '../../build/rover_autonomy/rover_autonomy.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kwasi/Autonomous_MicroRover_ROS/microrover_ws/build/rover_autonomy/build
+creating /home/kwasi/Autonomous_MicroRover_ROS/microrover_ws/build/rover_autonomy/build/lib
+creating /home/kwasi/Autonomous_MicroRover_ROS/microrover_ws/build/rover_autonomy/build/lib/rover_autonomy
+copying rover_autonomy/__init__.py -> /home/kwasi/Autonomous_MicroRover_ROS/microrover_ws/build/rover_autonomy/build/lib/rover_autonomy
+running install
+running install_lib
+creating /home/kwasi/Autonomous_MicroRover_ROS/microrover_ws/install/rover_autonomy/lib/python3.10/site-packages/rover_autonomy
+copying /home/kwasi/Autonomous_MicroRover_ROS/microrover_ws/build/rover_autonomy/build/lib/rover_autonomy/__init__.py -> /home/kwasi/Autonomous_MicroRover_ROS/microrover_ws/install/rover_autonomy/lib/python3.10/site-packages/rover_autonomy
+byte-compiling /home/kwasi/Autonomous_MicroRover_ROS/microrover_ws/install/rover_autonomy/lib/python3.10/site-packages/rover_autonomy/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/kwasi/Autonomous_MicroRover_ROS/microrover_ws/install/rover_autonomy/share/ament_index
+creating /home/kwasi/Autonomous_MicroRover_ROS/microrover_ws/install/rover_autonomy/share/ament_index/resource_index
+creating /home/kwasi/Autonomous_MicroRover_ROS/microrover_ws/install/rover_autonomy/share/ament_index/resource_index/packages
+copying resource/rover_autonomy -> /home/kwasi/Autonomous_MicroRover_ROS/microrover_ws/install/rover_autonomy/share/ament_index/resource_index/packages
+copying package.xml -> /home/kwasi/Autonomous_MicroRover_ROS/microrover_ws/install/rover_autonomy/share/rover_autonomy
+running install_egg_info
+Copying ../../build/rover_autonomy/rover_autonomy.egg-info to /home/kwasi/Autonomous_MicroRover_ROS/microrover_ws/install/rover_autonomy/lib/python3.10/site-packages/rover_autonomy-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/kwasi/Autonomous_MicroRover_ROS/microrover_ws/build/rover_autonomy/install.log'
